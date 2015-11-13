@@ -14,6 +14,7 @@ original: https://github.com/twitter/twitter.github.com/issues/14
 スクロール中必要に応じたリポジトリのロード
 
 jeroenooms commented on 15 Jan 2014
+
 ```
 It would be really cool if the repo "pages" (100 repos per API call) 
 were loaded as the user scrolls down, instead of loading them all at 
@@ -65,6 +66,7 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
 
 
 augbog commented on 2 May 2014
+
 ```
 If we decide to do this, how would we handle sorting? As of right now, 
 I believe it sorts all the repos before showing them. If we pull data
@@ -78,6 +80,7 @@ based on scroll, would we want it to resort them everytime?
 
 
 mbad0la commented 7 days ago
+
 ```
 @augbog @caniszczyk @jeroenooms Hey guys! I know this thread has been open
 for a really long time but i've recently started to explore github and try
