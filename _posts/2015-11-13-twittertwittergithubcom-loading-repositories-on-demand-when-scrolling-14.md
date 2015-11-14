@@ -38,7 +38,7 @@ original: https://github.com/twitter/twitter.github.com/issues/14
 
     I'm all for contributions :)
 
-僕は貢献のためのすべてだよ(?)
+僕は貢献のためのすべてだよ(訳不安)
 
 
 #### jeroenooms commented on 15 Jan 2014
@@ -53,7 +53,7 @@ jQueryのプラグインを使ってもOKですか？例えば http://imakewebth
     Yep, it's under the MIT license so we're OK with it:
     https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
 
-うん、MITライセンスの元（に配られている）から、それなら僕たちはOKだよ。
+うん、MITライセンス下にあるから、それなら僕たちはOKだよ。
 https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
 
 
@@ -107,7 +107,14 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
 でも(ソース)コードとこのスレッドの以前のコメントをざっと読んだんだけど、
 ２つの解決方法があると思うんですよ。
 
-1). 
-
+1). リポジトリオブジェクトをとっておいて、ページの最後で次の30件くらいのリポジトリを追加する。
+    -> この方法はページの最後にたどり着いた後で情報をロードするUIのアスペクトを実装するんだけど、
+       頻度の制限を避けるという目的に反して、以前言われていた通り大量のデータを持っている組織だと、
+       ユーザは全てを見て回らないかもしれないから、僕たちは不要なAPI呼び出しを持つことになる。
+2) ページの最後で次の30件くらいのリポジトリを追加するためにAPI呼び出しを初期化する。
+    -> この方法はUIのElementを実装して、API呼び出しの最適化をするけど、このプロセスで最終的には
+       この実装の代わりに(リポジトリの)ホットさによるソートの機能を諦めることになる。
+       でも僕らは(リポジトリの)ホットさ（によるソート）の機能をによってソートされた30件（あるいは
+       僕らが設定した件数）毎のリポジトリを取得することはできる。
 
 
