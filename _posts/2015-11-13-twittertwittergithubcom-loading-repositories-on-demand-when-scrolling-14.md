@@ -118,3 +118,17 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
        僕らが設定した件数）毎のリポジトリを取得することはできる。
 
 
+## 背景
+
+twitter/twitter.github.com は twitter社の公開しているリポジトリをまとめている
+サイト http://twitter.github.io/ のソースのリポジトリです。
+このサイトはGitHubのGitHub Pagesという機能を使って公開されています。これはOrganization名と同じ名前のリポジトリを作っておくと、
+そのリポジトリへpushするとリポジトリのファイルが静的なWebページとして公開されるものです（プロジェクト単位でも作れた気もする）。
+
+## 概要
+
+このissueでは一覧のページのロードに時間がちょっとかかっているから
+遅延ロードに変更してサクサク動くといいよねという提案なのですが、
+遅延ロードだとソートはどうすんのよ？というツッコミが入り、1年ほど放置されてたら
+俺やるよ？という人
+
