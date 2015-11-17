@@ -122,8 +122,10 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
 
 twitter/twitter.github.com は twitter社の公開しているリポジトリをまとめている
 サイト http://twitter.github.io/ のソースのリポジトリです。
-このサイトはGitHubのgh-pagesという機能を使って公開されています。これはOrganization名と同じ名前のリポジトリを作っておくと、
-そのリポジトリへpushするとリポジトリのファイルが静的なWebページとして公開されるものです（プロジェクト単位でも作れた気もする）。
+
+このサイトはGitHubの [GitHub Pages](https://pages.github.com/)という機能を使って公開されています。
+これはUserやOrganization名と同じ名前のリポジトリを作っておくと、そのリポジトリへpushするとリポジトリの
+ファイルを静的なWebページとして公開するものです（他にもproject siteも作成可能です)。
 
 ## 概要
 
@@ -134,9 +136,10 @@ twitter/twitter.github.com は twitter社の公開しているリポジトリを
 ## 個人的な意見
 
 twitterがこんなにたくさんのOSSプロダクトを作ってるとは知りませんでした。
-gh-pagesはこのサイトでも使っていますが、サーバを用意しなくて済むので非常に助かります。
+
+[GitHub Pages](https://pages.github.com/) はこのサイトでも使っていますが、サーバを用意しなくて済むので非常に助かります。
+
 遅延ロードとソートの話ですが、「遅延ロードでサクサク見せたい」という場合と
 「デフォルトとは違った順で見たい」というのは画面は似ているけど、違う機能なんじゃないかなと思います。
 前者は初めてサイトを訪れたは人を、後者はその後に更に調べたい人だと思います。
 調べたい人にはソートの条件を変更した際に再度最初からページをロードしてもいいんじゃないかな。
-
