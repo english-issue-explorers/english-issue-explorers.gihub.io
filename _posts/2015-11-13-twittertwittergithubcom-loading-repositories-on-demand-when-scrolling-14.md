@@ -123,13 +123,13 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
 twitter/twitter.github.com は twitter社の公開しているリポジトリをまとめている
 サイト http://twitter.github.io/ のソースのリポジトリです。
 
-twitter/twitter.github.com is the repository of the web site http://twitter.github.io/
-which summarize twitter's public repositories.
-
-
 このサイトはGitHubの [GitHub Pages](https://pages.github.com/)という機能を使って公開されています。
 これはUserやOrganization名と同じ名前のリポジトリを作っておくと、そのリポジトリへpushするとリポジトリの
 ファイルを静的なWebページとして公開するものです。あるいはproject siteも作成可能です。
+
+
+twitter/twitter.github.com is the repository of the web site http://twitter.github.io/
+which summarize twitter's public repositories.
 
 This site is published by using a GitHub function [GitHub Pages](https://pages.github.com/) .
 If you make a repository with same name as the user or organization, [GitHub Pages](https://pages.github.com/) 
