@@ -123,15 +123,27 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
 twitter/twitter.github.com は twitter社の公開しているリポジトリをまとめている
 サイト http://twitter.github.io/ のソースのリポジトリです。
 
+twitter/twitter.github.com is the repository of the web site http://twitter.github.io/
+which summarize twitter's public repositories.
+
+
 このサイトはGitHubの [GitHub Pages](https://pages.github.com/)という機能を使って公開されています。
 これはUserやOrganization名と同じ名前のリポジトリを作っておくと、そのリポジトリへpushするとリポジトリの
-ファイルを静的なWebページとして公開するものです（他にもproject siteも作成可能です)。
+ファイルを静的なWebページとして公開するものです。あるいはproject siteも作成可能です。
+
+This site is published by using a GitHub function [GitHub Pages](https://pages.github.com/) .
+If you make a repository with same name as the user or organization, [GitHub Pages](https://pages.github.com/) 
+publish the files in the repository as static web page and its assets. Or you an make it for your project.
+
 
 ## 概要
 
-このissueでは一覧のページのロードに時間がちょっとかかっているから
+このissueは、一覧のページのロードに時間がちょっとかかっているから
 遅延ロードに変更してサクサク動くといいよねという提案なのですが、
 遅延ロードだとソートはどうすんのよ？というツッコミが入り、1年ほど放置されてたら俺やるよ？という人が現れました。
+
+This issue says ""
+
 
 ## 個人的な意見
 
